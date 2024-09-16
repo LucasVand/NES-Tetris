@@ -1,0 +1,9 @@
+C:\Users\vandluc826\OneDrive - Bluewater District School Board\Comp Sci 2023\Tetris\Tetris\bin\Debug\Tetris.exe
+C:\Users\vandluc826\OneDrive - Bluewater District School Board\Comp Sci 2023\Tetris\Tetris\bin\Debug\Tetris.pdb
+C:\Users\vandluc826\OneDrive - Bluewater District School Board\Comp Sci 2023\Tetris\Tetris\obj\x86\Debug\Tetris.Form1.resources
+C:\Users\vandluc826\OneDrive - Bluewater District School Board\Comp Sci 2023\Tetris\Tetris\obj\x86\Debug\Tetris.Properties.Resources.resources
+C:\Users\vandluc826\OneDrive - Bluewater District School Board\Comp Sci 2023\Tetris\Tetris\obj\x86\Debug\Tetris.csproj.GenerateResource.Cache
+C:\Users\vandluc826\OneDrive - Bluewater District School Board\Comp Sci 2023\Tetris\Tetris\obj\x86\Debug\Tetris.exe
+C:\Users\vandluc826\OneDrive - Bluewater District School Board\Comp Sci 2023\Tetris\Tetris\obj\x86\Debug\Tetris.pdb
+C:\Users\vandluc826\OneDrive - Bluewater District School Board\Comp Sci 2023\Tetris\Tetris\obj\x86\Debug\Tetris.Resource1.resources
+C:\Users\vandluc826\OneDrive - Bluewater District School Board\Comp Sci 2023\Tetris\Tetris\obj\x86\Debug\Tetris.csprojResolveAssemblyReference.cache

@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A4845B68-CD52-4A77-B9A0-A7E337790F0A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tetris</RootNamespace>
+    <AssemblyName>Tetris</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackgroundV2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlueBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackgroundV21.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emulogic-font.zip" />
+    <None Include="Resources\Emulogic-zrEw.ttf" />
+    <None Include="Resources\lvl 1,1 new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl 1,1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl1,2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl1,3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackgroundTileImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl 2,1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl 2,2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl2,3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl3,1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl3,2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl3,3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl4,1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl4,2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl4,3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl5,1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl5,2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl5,3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl6,1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl6,2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl6.3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl7,1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl7,2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl8,2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl8,3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl9,1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl9,2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl9,3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl10,1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl10,2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl10,3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl8,1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl7,3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl1,4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl2,4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl3,4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl4,4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl5,4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl6,4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl7,4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl8,4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl9,4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl10,4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tetris_%28Nintendo,_NES%29-title.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-06-06 at 9.00.02 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-06-06 at 8.59.05 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-06-06 at 8.59.44 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LevelSelectionScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HighScores.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nameSelection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %282%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
